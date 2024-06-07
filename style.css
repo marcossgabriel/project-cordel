@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+article {
+    background-color: white;
+}
+
+header {
+    height: 300px;
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 150px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+header > p{
+    text-align: center;
+    padding: 30px;
+}
+
+
+a { 
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 1s all;
+}
+
+article > p {
+    font-size: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+p {
+    padding-left: 15px;
+}
+
+
+.transparente {
+    box-shadow: 5px black;
+    background-color: transparent;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    
+}
+
+#q1 {
+    background-color: rgba(0, 0, 0, 0.623);
+    background: black url(img2.jpg) center center / cover no-repeat fixed;
+}
+
+#q2 {
+    background: black url(img1.jpg) center center / cover no-repeat fixed;
+}
